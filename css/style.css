@@ -295,10 +295,13 @@ em {
   padding: 35px 0;
 }
 .layout > .content > main.main-content > section > .inner-wrapper.two-columns > .right a {
-  color: blue;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  color: black;
+  -webkit-text-decoration: underline 2px black;
+          text-decoration: underline 2px black;
   text-underline-offset: 0.1em;
+}
+.layout > .content > main.main-content > section > .inner-wrapper.two-columns > .right a:hover {
+  color: grey;
 }
 .layout > .content > main.main-content > section > .inner-wrapper.two-columns > .right a.more {
   font-size: 1rem;

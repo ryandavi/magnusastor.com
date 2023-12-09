@@ -381,9 +381,13 @@ em {
 					>.right {
 						padding: $spacing-large 0;
 						a {
-							color: blue;
-							text-decoration: underline 2px;
+							color: $main-color;
+							text-decoration: underline 2px $main-color;
 							text-underline-offset: 0.1em;
+
+							&:hover {
+								color: $subtle-color;
+							}
 
 							&.more {
 								font-size: 1rem;
@@ -462,7 +466,7 @@ em {
 					a {
 						color: white;
 						text-decoration: underline 2px white;
-							text-underline-offset: 0.1em;
+						text-underline-offset: 0.1em;
 
 							&:hover {
 								color: $subtle-color;
